@@ -66,7 +66,9 @@ $padding: 10px;
 }
 
 ```
+#### CSS naming conventions
 
+Use something sensible like this => [semanticUI](http://semantic-ui.com/)
 
 ```javascript
 var messg = "annoying!";
