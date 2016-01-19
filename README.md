@@ -1,6 +1,6 @@
 # Code samples
 
-## FED stuff:
+## FED (Front End ~~Developer~~ Dude) stuff:
 
  * CSS = scss
  * HML = HTML5
