@@ -2,6 +2,8 @@
 
 ## FED (Front End ~~Developer~~ Dude) stuff:
 
+*Note, I have been doing this way too long.
+
  * CSS = scss
  * HML = HTML5
  * Js = meteor, react, angular
