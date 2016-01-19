@@ -48,7 +48,7 @@ Instead of;
 
 ```
 ### CSS is a deceptively simple language, use but don't abuse the cascade
-Use as few variables as possible but, use them everywhere possible.
+Use as few variables as possible but, use them.
 Use css classes for everything and nest as shallowly as possible.
 
 ```css
@@ -75,4 +75,6 @@ console.log(messg);
 
 ### Other stuff to right click on..
 
- * [simpl](http://simpl.romack.net) My css framework before there was bootstrap
+ * [simpl](http://simpl.romack.net) => My css framework before there was bootstrap
+ * [portfolio](http://romack.net) => My portfolio
+ * [portfolio2](http://new.romack.net) => My portfolio in black
