@@ -84,6 +84,7 @@ console.log(messg);
  * [simpl](http://simpl.romack.net) => My css framework before there was bootstrap
  * [portfolio](http://romack.net) => My portfolio
  * [portfolio2](http://new.romack.net) => My portfolio in black
+ * [portfolio hidden](http://romack.net/minimalist.htm) => evil flash
 
 
 * [Ugly stuff on codepen](http://codepen.io/ShaggyDude/) <=
