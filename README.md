@@ -56,7 +56,7 @@ Use css classes for everything and nest as shallowly as possible.
 $color: #f00 !default;
 $padding: 10px;
 
-.Main-menu {
+.Menu {
   a.link {
   	color: $color;
       &:hover {
