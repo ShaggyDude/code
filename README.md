@@ -1,43 +1,44 @@
-# Code samples 4U
+# Code samples
 
-Front-end developer stuff:
+## FED stuff:
 
- * CSS
- * HML
- * Js
+ * CSS = scss
+ * HML = HTML5
+ * Js = meteor, react, angular
 
 And here's some code! :+1:
 
-## HML = Hypster Markup Language
-
-
+### HML = Hypster Markup Language
 
 ```html
 <d>
-	divitus is <s class="strong">bad<s>
+	<p>
+    	Just use d for div and s for span.
+    </p>
+    <p>
+    	That is all.
+    </p>
 </d>
 ```
 
 ```css
-.class {
-	color: #f00;
+$color: #f00 !default;
+.Main-menu {
+  a.link {
+  color: $color;
+  }
+  &:hover {
+  color: lighten($color, 10);
+  }
 }
 ```
 
 ```javascript
-	var messg = "annoying!";
-	console.log(messg);
+var messg = "annoying!";
+console.log(messg);
 ```
 
-This is [on GitHub](https://github.com/jbt/markdown-editor) so let me know if I've b0rked it somewhere.
-
-
-Props to Mr. Doob and his [code editor](http://mrdoob.com/projects/code-editor/), from which
-the inspiration to this, and some handy implementation hints, came.
-
-### Stuff used to make this:
+### Other stuff to right click on..
 
  * [markdown-it](https://github.com/markdown-it/markdown-it) for Markdown parsing
  * [CodeMirror](http://codemirror.net/) for the awesome syntax-highlighted editor
- * [highlight.js](http://softwaremaniacs.org/soft/highlight/en/) for syntax highlighting in output code blocks
- * [js-deflate](https://github.com/dankogai/js-deflate) for gzipping of data to make it fit in URLs
