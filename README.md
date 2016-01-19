@@ -15,11 +15,11 @@ Keep structure simple use;
 ```html
 
 <!-- no comments needed -->
-<d class="menu">
-	<a>
+<d class="Menu">
+	<a class="link">
     	Just use d for div and s for span.
     </a>
-    <a>
+    <a class="link">
     	That is <s class="strong">all</s>.
     </a>
 </d>
@@ -32,14 +32,14 @@ Instead of;
 
 <!-- no comments needed -->
 <menu>
-  <ul class="menu">
+  <ul class="Menu">
       <li>
-          <a>
+          <a class="link">
               Just use d for div and s for span.
           </a>
       </li>
       <li>
-          <a>
+          <a class="link">
               That is <span class="strong">all</span>.
           </a>
       </li>
