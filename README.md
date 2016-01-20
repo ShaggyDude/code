@@ -37,8 +37,8 @@ Instead of;
 
 ```html
 
-<menu>
-  <ul class="Menu">
+<menu class="Menu">
+  <ul>
       <li>
           <a class="link">
               Just use d for div and s for span.
@@ -60,8 +60,7 @@ Use css classes for everything and nest as shallowly as possible.
 ```css
 
 $primary: #f00; $secondary: #f55; $tertuary: #f99;
-
-$padding: 10px; $margin: 10px;
+$padding: 10px; $margin: 10px; $border: 1px solid #000;
 
 .Menu {
   a.link {
@@ -76,15 +75,24 @@ $padding: 10px; $margin: 10px;
 #### CSS naming conventions and libraries
 
 Use prefix free => [prefixfree](http://leaverou.github.io/prefixfree/)
+
 Use a reset     => [normalize](https://necolas.github.io/normalize.css/)
+
 Use sensible naming conventions => [semanticUI](http://semantic-ui.com/)
 
+Use some sort of CSS library like Bootstrap. At the least the grids, at the most everything. You get responsive out of the box and it is thoroughly tested
 
-### Javascript = jQuery, meteor, angular...
+#### CSS optimization
+
+Use sass's (or better yet [Stylus](http://stylus-lang.com/)) @extend to mutate css components without bloat
+
+
+### Javascript/HTML template sytems = jQuery, meteor, angular...
 
 ```javascript
-var message = "annoying!";
-console.log(message);
+
+	var template = "?";
+    
 ```
 
 ### Other stuff to right click on..
