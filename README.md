@@ -1,4 +1,4 @@
-# Code samples
+# Code samples and standards
 
 ## FED (Front End ~~Developer~~ Dude) stuff:
 
