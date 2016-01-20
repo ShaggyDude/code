@@ -4,6 +4,8 @@
 
 *Note, I have been doing this way too long.
 
+Whatever standards are used they should be enforced before being pushed to production, preferably with every code checkin..
+
  * CSS = scss
  * HML = HTML5
  * Js = meteor, react, angular
@@ -12,7 +14,7 @@ Write pragmatic testable code :+1:
 
 ### HML = Hypster Markup Language
 
-Keep structure simple use;
+Keep structure as simple as possible;
 
 ```html
 
@@ -32,7 +34,6 @@ Instead of;
 
 ```html
 
-<!-- no comments needed -->
 <menu>
   <ul class="Menu">
       <li>
@@ -55,8 +56,9 @@ Use css classes for everything and nest as shallowly as possible.
 
 ```css
 
-$color: #f00 !default;
-$padding: 10px;
+$primary: #f00; $secondary: #f55; $tertuary: #f99;
+
+$padding: 10px; $margin: 10px;
 
 .Menu {
   a.link {
@@ -68,18 +70,18 @@ $padding: 10px;
 }
 
 ```
-#### CSS naming conventions and library
+#### CSS naming conventions and libraries
 
 Use prefix free => [prefixfree](http://leaverou.github.io/prefixfree/)
-
-Use something sensible like this => [semanticUI](http://semantic-ui.com/)
+Use a reset     => [normalize](https://necolas.github.io/normalize.css/)
+Use sensible naming conventions => [semanticUI](http://semantic-ui.com/)
 
 
 ### Javascript = jQuery, meteor, angular...
 
 ```javascript
-var messg = "annoying!";
-console.log(messg);
+var message = "annoying!";
+console.log(message);
 ```
 
 ### Other stuff to right click on..
@@ -88,6 +90,6 @@ console.log(messg);
  * [portfolio](http://romack.net) => My portfolio
  * [portfolio2](http://new.romack.net) => My portfolio in black
  * [portfolio hidden](http://romack.net/minimalist.htm) => evil flash
-
+ 
 
 * [Ugly stuff on codepen](http://codepen.io/ShaggyDude/) <=
