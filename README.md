@@ -1,6 +1,6 @@
 # Code samples and standards
 
-## FED (Front End ~~Developer~~ Dude) stuff:
+## FED (Front End ~~Dude~~ Developer) stuff:
 
 *Note, I have been doing this way too long.
 
@@ -9,10 +9,13 @@ Whatever standards are used they should be enforced before being pushed to produ
  * CSS = scss
  * HML = HTML5
  * Js = meteor, react, angular
+ 
+ 
+ * Media = responsive images & videos, webfonts, SVG
 
 Write pragmatic testable code :+1:
 
-### HML = Hypster Markup Language
+### H~~T~~ML = Hipster Markup Language
 
 Keep structure as simple as possible;
 
