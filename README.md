@@ -8,10 +8,8 @@ Whatever standards are used they should be enforced before being pushed to produ
 
  * CSS = scss
  * HML = HTML5
- * Js = meteor, react, angular
- 
- 
  * Media = responsive images & videos, webfonts, SVG
+ * Js = meteor, react, angular
 
 Write pragmatic testable code :+1:
 
@@ -94,6 +92,9 @@ Use sass's (or better yet [Stylus](http://stylus-lang.com/)) @extend to mutate c
 	var template = "?";
     
 ```
+
+### Other code standards to check out..
+* [HTML/CSS](http://codeguide.co/) => twitter's guide
 
 ### Other stuff to right click on..
 
