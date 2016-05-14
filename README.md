@@ -1,6 +1,6 @@
 # Code samples and standards
 
-## FED (Front End ~~Dude~~ Developer) stuff:
+## User Interface Developer - Designer:
 
 *Note, I have been doing this way too long.
 
