@@ -20,14 +20,10 @@ Keep structure as simple as possible;
 ```html
 
 <!-- no comments needed -->
-<d class="Menu">
-	<a class="link">
-    	Just use d for div and s for span.
-    </a>
-    <a class="link">
-    	That is <s class="strong">all</s>.
-    </a>
-</d>
+<menu>
+  <a> Just use d for div and s for span. </a>
+  <a> That is <s class="strong">all</s>. </a>
+</menu>
 
 ```
 
