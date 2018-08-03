@@ -56,11 +56,11 @@ Use css classes for everything and nest as shallowly as possible.
 $primary: #f00; $secondary: #f55; $tertuary: #f99;
 $padding: 10px; $margin: 10px; $border: 1px solid #000;
 
-.Menu {
-  a.link {
-  	color: $color;
+menu {
+  a {
+    color: $primary;
       &:hover {
-      color: lighten($color, 10);
+      color: lighten($primary, 10);
     }
   }
 }
@@ -68,26 +68,16 @@ $padding: 10px; $margin: 10px; $border: 1px solid #000;
 ```
 #### CSS naming conventions and libraries
 
-Use prefix free => [prefixfree](http://leaverou.github.io/prefixfree/)
-
-Use a reset     => [normalize](https://necolas.github.io/normalize.css/)
-
+Use autoprefixer    => 
+Use a normalize     => [normalize](https://necolas.github.io/normalize.css/)
 Use sensible naming conventions => [semanticUI](http://semantic-ui.com/)
 
 Use some sort of CSS library like Bootstrap. At the least the grids, at the most everything. You get responsive out of the box and it is thoroughly tested
 
 #### CSS optimization
 
-Use sass's (or better yet [Stylus](http://stylus-lang.com/)) @extend to mutate css components without bloat
+Use @extend to compose css without bloat or deep cascade and multiple overrides
 
-
-### Javascript/HTML template sytems = jQuery, meteor, angular...
-
-```javascript
-
-	var template = "?";
-    
-```
 
 ### Other code standards to check out..
 * [HTML/CSS](http://codeguide.co/) => twitter's guide
@@ -99,5 +89,3 @@ Use sass's (or better yet [Stylus](http://stylus-lang.com/)) @extend to mutate c
  * [portfolio2](http://new.romack.net) => My portfolio in black
  * [portfolio hidden](http://romack.net/minimalist.htm) => evil flash
  
-
-* [Ugly stuff on codepen](http://codepen.io/ShaggyDude/) <=
