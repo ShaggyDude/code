@@ -68,9 +68,9 @@ menu {
 ```
 #### CSS naming conventions and libraries
 
-Use autoprefixer    => 
-Use a normalize     => [normalize](https://necolas.github.io/normalize.css/)
-Use sensible naming conventions => [semanticUI](http://semantic-ui.com/)
+*  Use autoprefixer    => 
+*  Use a normalize     => [normalize](https://necolas.github.io/normalize.css/)
+*  Use sensible naming conventions => [semanticUI](http://semantic-ui.com/)
 
 Use some sort of CSS library like Bootstrap. At the least the grids, at the most everything. You get responsive out of the box and it is thoroughly tested
 
